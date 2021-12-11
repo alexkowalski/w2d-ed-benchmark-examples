@@ -1,0 +1,33 @@
+
+[General]
+DOS = EDcheck
+half-bandwidth = 2.0, 4.0
+muimpFile = w2dlevels.dkhrm83m.dat
+beta = 100.0
+EPSN = 0.0
+NAt = 1
+DMFTsteps = 0
+StatisticSteps = 1
+FileNamePrefix = edbenchmark
+mixing = 0.2
+magnetism = para
+FTType = none
+[Atoms]
+[[1]]
+Nd = 2
+Hamiltonian = Density
+Udd = 8.0
+Jdd = 0.0
+Vdd = 0.0
+QuantumNumbers = Nt Szt Azt
+[QMC]
+Nwarmups = 200000000
+Nmeas = 700000
+NCorr = 5000  # accidentally overestimated
+Ntau = 2000
+Niw = 2000
+Nftau = 2000
+NLegMax = 1
+NLegOrder = 1
+MeasGiw = 1
+NLookup_nfft = 10000000

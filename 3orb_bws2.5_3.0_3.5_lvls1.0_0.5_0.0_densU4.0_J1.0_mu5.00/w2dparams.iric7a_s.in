@@ -1,0 +1,33 @@
+
+[General]
+DOS = EDcheck
+half-bandwidth = 2.5, 3.0, 3.5
+muimpFile = w2dlevels.oexpr25q.dat
+beta = 100.0
+EPSN = 0.0
+NAt = 1
+DMFTsteps = 0
+StatisticSteps = 1
+FileNamePrefix = edbenchmark
+mixing = 0.2
+magnetism = para
+FTType = none
+[Atoms]
+[[1]]
+Nd = 3
+Hamiltonian = Density
+Udd = 4.0
+Jdd = 1.0
+Vdd = 2.0
+QuantumNumbers = Nt Szt Azt
+[QMC]
+Nwarmups = 150000000
+Nmeas = 1800000
+NCorr = 2000
+Ntau = 2000
+Niw = 2000
+Nftau = 2000
+NLegMax = 1
+NLegOrder = 1
+MeasGiw = 1
+NLookup_nfft = 10000000
