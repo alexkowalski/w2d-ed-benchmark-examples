@@ -53,3 +53,5 @@ For all three-orbital examples, 3 bath sites per orbital were used in the ED DMF
 * Bethe lattice half-bandwidths [2.0, 2.0, 4.0], local levels [0.0, 0.0, 0.0], Kanamori interaction with Hubbard U = 1.0 and Hund's coupling J = 0.25, chemical potential mu = 1.25 [here](3orb_bws2.0_2.0_4.0_lvls0.0_kanU1.0_J0.25_mu1.25)
 
 * Bethe lattice half-bandwidths [2.5, 3.0, 3.5], local levels [1.0, 0.5, 0.0], density interaction with Hubbard U = 4.0 and Hund's coupling J = 1.0, chemical potential mu = 5.00 [here](3orb_bws2.5_3.0_3.5_lvls1.0_0.5_0.0_densU4.0_J1.0_mu5.00)
+
+* Bethe lattice half-bandwidths [2.5, 3.0, 3.5], local levels [1.0, 0.5, 0.0], Kanamori interaction with Hubbard U = 4.0 and Hund's coupling J = 1.0, chemical potential mu = 5.00 [here](3orb_bws2.5_3.0_3.5_lvls1.0_0.5_0.0_kanU4.0_J1.0_mu5.00)
