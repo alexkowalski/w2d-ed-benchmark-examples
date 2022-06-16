@@ -4,7 +4,7 @@ The ED DMFT calculations and generation of impurity problem input data were perf
 
 ## Benchmark results
 
-For all examples, the inter-orbital interaction parameter for different spins is U' = U - 2J.
+For all examples, the inter-orbital interaction parameter for different spins is U' = U - 2J and the inverse temperature beta = 100 if not otherwise specified.
 
 ### Two-orbital calculations
 
@@ -33,6 +33,8 @@ For all two-orbital examples, 5 bath sites per orbital were used in the ED DMFT 
 * Bethe lattice half-bandwidths [2.0, 4.0], local levels [0.0, 0.0], density interaction with Hubbard U = 8.0 and Hund's coupling J = 2.0, chemical potential mu = 7.0 [here](2orb_bws2.0_4.0_lvls0.0_densU8.0_J2.0_mu7.0)
 
 * Bethe lattice half-bandwidths [2.0, 4.0], local levels [0.0, 0.0], Kanamori interaction with Hubbard U = 8.0 and Hund's coupling J = 2.0, chemical potential mu = 7.0 [here](2orb_bws2.0_4.0_lvls0.0_kanU8.0_J2.0_mu7.0)
+
+* Bethe lattice at beta = 10, half-bandwidths [2.0, 4.0], local levels [0.0, 0.0], Kanamori interaction with Hubbard U = 8.0 and Hund's coupling J = 2.0, chemical potential mu = 7.0 [here](2orb_beta10_bws2.0_4.0_lvls0.0_kanU8.0_J2.0_mu7.0)
 
 * Bethe lattice half-bandwidths [2.0, 4.0], local levels [0.0, 0.0], density interaction with Hubbard U = 8.0 and no Hund's coupling, chemical potential mu = 4.0 [here](2orb_bws2.0_4.0_lvls0.0_densU8.0_J0.0_mu4.0)
 
